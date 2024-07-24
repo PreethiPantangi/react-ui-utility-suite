@@ -1,0 +1,64 @@
+/* Accordion */
+.accordion {
+    margin-bottom: 1rem;
+}
+
+.accordion-title {
+    background-color: cornflowerblue;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.50rem;
+    cursor: pointer;
+}
+
+.accordion-content {
+    padding: 1rem;
+}
+
+.accordion-content-border {
+    border: 0.05rem solid black;
+}
+
+/* Button */
+.btn {
+    cursor: pointer;
+  }
+  
+  .button-default {
+    background-color: cornflowerblue;
+    color: white;
+    font-weight: bold;
+    border: none;
+    padding: 0.50rem;
+  }
+  
+  .button-rounded {
+    border-radius: 0.25rem;
+  }
+  
+  .button-disabled {
+    color: black;
+    background-color: slategrey;
+    border: none;
+    padding: 0.50rem;
+  }
+  
+  .button-warning, .button-success, .button-error {
+    color: white;
+    font-weight: bold;
+    padding: 0.50rem;
+  }
+  
+  .button-warning {
+    background-color: orange;
+  }
+  
+  .button-success {
+    background-color: green;
+  }
+  
+  .button-error {
+    background-color: red;
+  }
